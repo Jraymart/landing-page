@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: block;
+    
+}
+.section-top{
+    height: 500px;
+    background-color: #1F2937;
+    padding: 16px 36px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 36px;
+    padding: 0 36px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: 100;
+    font-size:18px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 36px;
+    gap: 36px;
+    color:#f9faf8;
+    height:80%;
+    padding: 36px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-left p{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.hero-right{
+    flex: 1 0 auto;
+    width: 450px;
+    background-color: grey;
+}
+button{
+    background-color: #3882f6;
+    border: none;
+    color:#f9faf8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font: bold;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 36px;
+    padding: 36px;
+}
+.item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 32px;
+}
+.item img{
+    border-radius: 8px;
+    border: 5px solid #3882f6;
+    width: 250px;
+    height: 250px;
+}
+
+.quote{
+    padding: 16px 36px;
+    background-color: #e5e7eb;
+    color:#1F2937;
+}
+#quote{
+    padding: 36px 36px 0px 36px;
+    margin:36px 36px 0px 36px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+#author{
+    margin-right: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    justify-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal{
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 72px 144px;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 36px;
+    gap: 36px;
+}
+
+.modal-text h3, .modal-text p {
+    margin:0;
+}

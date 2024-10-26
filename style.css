@@ -1,0 +1,148 @@
+:root{
+    --dark-bg: #F48812;
+    --main-txt:#f9faf8;
+    --secondary-txt:#e5e7eb;
+    --btn: #EFD980;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: roboto, sans-serif;
+}
+html{
+    box-sizing: border-box;
+
+}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:300;
+    color: var(--main-txt);
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin:0;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--dark-bg);
+}
+button {
+    padding: 8px 30px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: none;
+    background-color:var(--btn);
+    color: var(--main-txt);
+}
+.header-hero,.footer,.content,.quote,.modal{
+    width:100vw;
+}
+.footer{
+    text-align: center;
+}
+.header-hero,.footer{
+    background-color: var(--dark-bg);
+    color: var(--main-txt);
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+header{
+    font-size: 24px;
+}
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 32px;
+}
+.hero img{
+    width: 500px;
+    height:auto;
+    border-radius: 8px;
+}
+
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+.content-container{
+    display:flex;
+    justify-content: space-between;
+    gap:16px;
+}
+.item-img{
+    width:200px;
+    height:200px;
+    border: 5px solid var(--dark-bg);
+    overflow:hidden;
+    border-radius: 8px;
+}
+.item-img img{
+    height:200px;
+    width:auto;
+}
+.item{
+    text-align: center;
+    width:200px;
+}
+
+.quote{
+    background-color: var(--secondary-txt);
+    margin-bottom:32px;
+}
+.quote-container{
+    padding:36px;
+}
+#quote-content{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color:var(--dark-bg);
+    margin:0;
+    padding:0;
+}
+#quote-author{
+    display:flex;
+    justify-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-container{
+    background-color:var(--btn);
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
+h3{
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+.signup{
+    border: 2px solid var(--main-txt);
+}
